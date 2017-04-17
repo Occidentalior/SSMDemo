@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springmvcproject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springmvcproject_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSMDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="spring-core-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="spring-webmvc-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.0-bin.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="spring-web-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="mybatis-3.2.2.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="commons-dbcp.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="spring-jdbc-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="spring-context-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="spring-beans-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="spring-context-support-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="spring-tx-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="spring-aop-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="aopalliance-1.0.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="spring-expression-3.2.3.RELEASE.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="commons-pool.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="log4j-1.2.16.jar" module-name="springmvcproject" />
+          <element id="library" level="module" name="mybatis-spring-1.1.1.jar" module-name="springmvcproject" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SSMDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
